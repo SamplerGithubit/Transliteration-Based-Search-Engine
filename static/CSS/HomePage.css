@@ -1,0 +1,67 @@
+/* button*/
+.btn {
+  background-color: darkgray; 
+  color: rgb(19, 13, 13);
+  text-align: center;
+  font-size: 18px;
+  border: black;
+  border-radius: 0.2cm;
+  width: 4cm;
+  height: 1cm;
+  margin-top: 0.2cm;
+
+}
+
+/*search bar */
+
+.rounded {
+  height: 1cm;
+  width: 10cm;
+  border-radius: 0.1cm;
+}
+.centered {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* navigation bar*/
+
+nav .logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+nav{
+  background: #171c24;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 70px; 
+  padding: 0 100px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*drop down */
+select {
+  text-align: center;
+  text-align-last: center;
+  font-size: .9rem;
+  padding: 2px 5px;
+}
+
+.lang {
+  margin-left: 2cm;
+  margin-right: 0.5cm;
+  color: #fff;
+}
+

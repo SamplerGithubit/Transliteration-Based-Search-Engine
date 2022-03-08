@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/HomePage.css')}}">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Transliteration based search
+        </div>
+        <p class="lang ">Select a Language</p>
+        <select name="languages" id="language-select">
+            <option value="Hindi">Hindi ( हिन्दी )</option>
+            <option value="Marathi">Marathi ( मराठी )</option>
+            <option value="Telugu">Telugu ( తెలుగు )</option>
+            <option value="Malayalam">Malayalam ( മലയാളം )</option>
+            <option value="Gujarati">Gujarati ( ગુજરાતી )</option>
+        </select>
+    </nav>
+
+    
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>
